@@ -193,7 +193,7 @@ waitfortable((WhatClassRow) => {
                 "Damn.",
                 "J'ai déjà vu un 6.2 une fois, on ne sait jamais.",
                 "Tu peux toujours essayer...",
-                "Explose kurz la grille des notes."
+                "explose brièvement l'échelle de notes."
             ],
             impossibleDown: [
                 "La moyenne est déjà safe.",
