@@ -445,6 +445,7 @@ waitfortable((WhatClassRow) => {
     coeffInput.addEventListener('input', () => {
         let value = coeffInput.value;
         value = value.replace(/[^0-9.,]/g, '');
+        coeffInput.value = value;
 
         if (value === '' || isNaN(parseFloat(value.replace(',', '.')))) {
             downSpan.textContent = '-.--';
