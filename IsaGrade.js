@@ -90,7 +90,7 @@ waitfortable((WhatClassRow) => {
             const CoEffText = CoEffCell.textContent.trim();
             const GradeText = GradeCell.textContent.trim();
 
-            if (CoEffText === '' || GradeText === '') continue;
+            if (CoEffText === '' || GradeText === '' || GradeText === 'D') continue;
 
             if (GradeText.includes('(') && GradeText.includes(')')) {
                 break;
@@ -117,7 +117,7 @@ waitfortable((WhatClassRow) => {
 
 
 
-            if (CoEffText === '' || GradeText === '') continue;
+            if (CoEffText === '' || GradeText === '' || GradeText === 'D') continue;
 
 
             if (GradeText.includes('(') && GradeText.includes(')')) {
