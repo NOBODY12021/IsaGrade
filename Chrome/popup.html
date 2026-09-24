@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <style>
+            body {
+                font-family: sans-serif; 
+                width: 290px; 
+                padding: 12px; 
+                margin: 0; 
+            }
+            h3 {
+                margin-top: 0; 
+                font-size: 14px; 
+                color: #333; 
+                margin-bottom: 6px; 
+            }
+            .select-group {
+                margin-bottom: 12px; 
+            }
+            .GrandientSelect {
+                display: flex; 
+                flex-direction: row;
+                gap: 5%
+            }
+            .GradientSelect .select-group {
+                flex: 1;
+            }
+            label {
+                font-size: 11px; 
+                display: block; 
+                margin-bottom: 4px; 
+                color: #555; 
+                text-transform: uppercase; 
+                font-weight: bold;
+            }
+            select {
+                width: 100%; 
+                padding: 6px; 
+                border-radius: 4px; 
+                border: 1px solid #ccc; 
+                cursor: pointer; 
+            }
+            hr {
+                border: 0; 
+                border-top: 1px solid #eee; 
+                margin: 12px 0; 
+            }
+            </style>
+        </head>
+    <body>
+        <div class="select-group">
+            <label for="langSelect">Sprache / Langue / Lingua / Language:</label>
+            <select id="langSelect">
+                <option value="de" selected>Deutsch</option>
+                <option value="fr">Français</option>
+                <option value="it">Italiano</option>
+                <option value="en">English</option>
+            </select>
+        </div>
+
+            <hr>
+            <h3 id="titleGradient">Verlauf anpassen</h3>
+            
+            <div class="GrandientSelect">
+                <div class="select-group">
+                    <label id="labelLeft" for="selectA">Farbe Links:</label>
+                    <select id="selectA">
+                        <option value="#800080" selected>Klassisch Lila</option>
+                        <option value="#dc2626">Karmesinrot</option>
+                        <option value="#065f46">Smaragdgrün</option>
+                        <option value="#1e3a8a">Tiefblau</option>
+                        <option value="#b91c1c">Rubinrot</option>
+                        <option value="#4b5563">Schiefergrau</option>
+                        <option value="#0f172a">Mitternachtsblau</option>
+                        <option value="#1e1b4b">Kosmisches Indigo</option>
+                        <option value="#581c87">Dunkles Violett</option>
+                        <option value="#701a75">Beerenpurpur</option>
+                        <option value="#ea580c">Sonniges Orange</option>
+                        <option value="#ca8a04">Senfgelb</option>
+                        <option value="#be185d">Magenta</option>
+                        <option value="#9a3412">Terrakotta</option>
+                        <option value="#0d9488">Ozeantürkis</option>
+                        <option value="#2563eb">Königsblau</option>
+                        <option value="#16a34a">Saftiges Grün</option>
+                        <option value="#4f46e5">Indigoblau</option>
+                        <option value="#ffffff">Weiss</option>
+                        <option value="#000000">Schwarz</option>
+                    </select>
+                </div>
+
+                <div class="select-group">
+                    <label id="labelRight" for="selectB">Farbe Rechts:</label>
+                    <select id="selectB">
+                        <option value="#800080">Klassisch Lila</option>
+                        <option value="#dc2626">Karmesinrot</option>
+                        <option value="#065f46">Smaragdgrün</option>
+                        <option value="#1e3a8a" selected>Tiefblau</option>
+                        <option value="#b91c1c">Rubinrot</option>
+                        <option value="#4b5563">Schiefergrau</option>
+                        <option value="#0f172a">Mitternachtsblau</option>
+                        <option value="#1e1b4b">Kosmisches Indigo</option>
+                        <option value="#581c87">Dunkles Violett</option>
+                        <option value="#701a75">Beerenpurpur</option>
+                        <option value="#ea580c">Sonniges Orange</option>
+                        <option value="#ca8a04">Senfgelb</option>
+                        <option value="#be185d">Magenta</option>
+                        <option value="#9a3412">Terrakotta</option>
+                        <option value="#0d9488">Ozeantürkis</option>
+                        <option value="#2563eb">Königsblau</option>
+                        <option value="#16a34a">Saftiges Grün</option>
+                        <option value="#4f46e5">Indigoblau</option>
+                        <option value="#ffffff">Weiss</option>
+                        <option value="#000000">Schwarz</option>
+                    </select>
+                </div>
+            </div>
+        <script src="popup.js"></script>
+    </body>
+</html>
