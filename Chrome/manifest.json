@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "IsaGrade",
-  "version": "1.4",
+  "version": "1.5",
   "description": "IsaGrade calculates the minimum grade required to maintain the current grade point average and to raise it by 0.5.",
   "permissions": ["storage"],
   "host_permissions": [

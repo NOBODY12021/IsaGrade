@@ -394,7 +394,7 @@ waitfortable((WhatClassRow) => {
 
     const downContainer = document.createElement('span');
     downContainer.style.cssText = 'text-align:center; border-radius:6px; padding: 2px 8px; display: inline-block; white-space: nowrap';
-    downContainer.appendChild(document.createTextNode('⮟ '));
+    downContainer.appendChild(document.createTextNode('▼ '));
 
     const downValue = document.createElement('span');
     downValue.className = 'down-value';
@@ -409,7 +409,7 @@ waitfortable((WhatClassRow) => {
 
     const upContainer = document.createElement('span');
     upContainer.style.cssText = 'text-align:center; border-radius:6px; padding: 2px 8px; display: inline-block; white-space: nowrap';
-    upContainer.appendChild(document.createTextNode('⮝ '));
+    upContainer.appendChild(document.createTextNode('▲ '));
 
     const upValue = document.createElement('span');
     upValue.className = 'up-value';
