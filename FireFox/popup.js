@@ -1,7 +1,6 @@
 const selectA = document.getElementById('selectA');
 const selectB = document.getElementById('selectB');
 const langSelect = document.getElementById('langSelect');
-const darkModeToggle = document.getElementById('darkModeToggle');
 
 const popupUiStrings = {
     de: {
@@ -93,4 +92,3 @@ function updateExtension() {
 langSelect.addEventListener('change', updateExtension);
 selectA.addEventListener('change', updateExtension);
 selectB.addEventListener('change', updateExtension);
-darkModeToggle.addEventListener('change', updateExtension);
